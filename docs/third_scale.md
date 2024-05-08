@@ -17,6 +17,16 @@ The following measurements were taken to determine design specifications for the
 Since the last two measurements corroborate each other, the torque specification for the motor for brake-by-wire is set to 14 Nm.
 
 ### Motor Selection
+The Motor used is called the Docyke 550kg servo motor <link>.
+This servo motor was a compact size which allows more options for secure mounting and ensuring the car keeps its form externally. Although the motor size and weight are low, the high power output is ideal for the purpose being served by the third scale car. Built in magnetic encoder feedback allows high accuracy and maintains consistency in performance. The chosen motor is also compatible with Arduino as the motor driver, which is oftentimes simpler to program and maintain, especially for beginners. 
+
+Specifications:
+* Nominal Voltage of 18V but has a voltage range of 12-24V
+* Max current of 22A
+* Servo speed is 0.16s/60 degrees with an angle range of 0-360 degrees and prescision of 0.32 degrees
+* Max Torque of 55NM
+* 
+
 
 ### Motor Mounts
 
@@ -46,7 +56,7 @@ VDI = 48.82 = (30amps x 2.5ft)/(3% x 51.2v)
 * [Victron Energy Orion DC-DC Converter 48V>>12V](https://www.amazon.com/Victron-Orion-TR-DC-DC-Converter-Isolated/dp/B07DQ5H3T2) - rated up to 30A (360W) and accepts voltages between 32-70V.
 * The [Flipsky-75100-pro VESC motor controller board](https://flipsky.net/products/flipsky-75100-pro-with-aluminum-pcb-based-on-vesc-for-electric-skateboard-scooter-ebike-speed-controller) accepts voltages between 14-84V. We had considered the [TRAMPA VESC 100V 250A](https://trampaboards.com/vesc-100v-250a-in-cnc-t6-silicone-sealed-aluminum-box--p-28113.html) that is a bit more capable, but we did not need that extra capability and it would be harder to order.
 * The [Onlogic Karbon 804, On Board Computer (OBC)](https://www.onlogic.com/k804/) accepts voltages between 12-48V.
-* The [Docyne motor](https://www.docyke.com/products/servo-motor) accepts voltages between 12-24V.
+* The [Docyke motor](https://www.docyke.com/products/servo-motor) accepts voltages between 12-24V.
 * The NVIDIA Orin accepts voltages between 7-20V.
 * The LIDAR operates on PoE sourced from the OBC.
 * The ZED cameras operate on GMSL connections from the NVIDIA Orin.
@@ -54,8 +64,8 @@ VDI = 48.82 = (30amps x 2.5ft)/(3% x 51.2v)
 ### Power Requirements
 
 * The stock motor pulls 16A at 24V, leading to 16*24= **384W**
-* The Docyne motor (throttle) is 5A at 18V --> 5*18 = **90W**
-* The Docyne motor (brake) is also **90W** (although used much less frequently)
+* The Docyke motor (throttle) is 5A at 18V --> 5*18 = **90W**
+* The Docyke motor (brake) is also **90W** (although used much less frequently)
 * The On Board Computer (OBC) uses **65W**
 * The NVIDIA Orin + ZED cameras use roughly **100W** (?check this empirically?)
 
