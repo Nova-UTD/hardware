@@ -74,3 +74,74 @@ We found cost effective batteries typically used for golf carts at 48V.  Li Time
 Given the 48V, assuming no losses in the DC-DC conversion, the current draw would be 729W/48V = 15.2A (amps). Rounding this up to 16A to include losses, a 16Ah = 16000mAh battery would last 1 hour of operation and a 32Ah battery would last 2 hours. Thus the 30Ah battery should last roughly 2 hours.
 
 ## Sensor Mounts
+
+
+## Component information:
+
+### Ignition Control Relay
+Littelfuse DCNLM100NB12-01
+
+DCNLM 100A 48V NP 12Vcoil DC | Series: DCNLM
+
+[DATASHEET](https://www.littelfuse.com/products/relays-contactors-transformers/high-voltage-dc-contactor-relays/dcnlm/dcnlm100nb12-01)
+
+The DCNLM Series 60V High-Current DC Contactor Relay features 100A contact switching capability with a 12V coil rating, which is suitable for a wide variety of applications, including use in electrical control systems, communication power supplies, engineering machines, and uninterruptible power supplies (UPS).
+
+This configuration of the DCNLM normally open, high-current DC contactor (DCNLM100NB12-01) features 60V non-polarized main contacts and a dual-coil design.
+
+* Current Rating (Continuous) in Amps: 100
+* Current Rating (inrush) in Amps: 400A 5ms
+* Voltage Rating (V): 60
+* Circuitry: SPST NO
+* Ingress Protection: IP4X
+* Input Terminals: M6 Bolt
+* Output Terminals: M6 Bolt
+* Contacts: Silver alloy contact
+* Normal Position: Normally Open
+* Hardware: M6 Nuts
+* Housing: Metal
+* Mounting Method: SIDE MOUNT
+* Recommended Torque: 4-6 N.M
+* Agency Approval - Shock: DCNLM50NB DVP 50G, 6ms
+* Agency Approval - Vibration: 1~500Hz, About 1G, 8h/axis
+* Temperature Maximum (°C): 70
+* Temperature Minimum (°C): -40
+* Temperature Maximum (°F): 158
+* Temperature Minimum (°F): -40
+* Aux Contacts: No
+* Coil Type: Dual
+* Agency Approval - Humidity: 20%~90% RH
+* Polarized: No
+* Coil Voltage: 12
+
+### 12V Battery for Ignition Control of Relay
+Rapthor Portable 12V 2600mAh Rechargeable Battery Pack with Charger and DIY cable
+[Amazon Link](https://www.amazon.com/dp/B0D9D5L3B5?ref=ppx_yo2ov_dt_b_fed_asin_title)
+
+This portable 2600mAh lithium ion battery pack with DC 9.0-12.6V/3A (Max) output, the input is DC12.6V/1A. It comes with 12.6V/1A Charger, DC power connector and DC power pigtail cable, great choice to do the DIY projects.
+
+Compatible with CCTV camera, IP camera, LED panel, amplifier, modem, walkie-talkies, camcorders, Bluetooth devices, aviation models, LED strip, electronic piano, optical network unit, router, small Bluetooth amp, electric scooter 12V turn signals, car DVR etc.
+
+Buck-boost converter protects against overheating. Battery Management System (BMS) prevents over discharge. Microcontroller (MCU) offers short circuit protection.
+
+Premium lithium-ion batteries with over 800 times charge-discharge cycles without memory effect.
+
+**Battery Pack Specifications:**
+* Battery Type: Lithium ion
+* Capacity: 2600mAh.
+* Input: DC12.6V/1A.
+* Output: DC 9.0-12.6V /3A (Max).
+
+**Charger Specifications**
+* Input: 100-240V-50/60Hz 0.8A.
+* Output: 12.6V /1A.
+
+**Package Includes**
+* 1x Llithium ion battery pack
+* 1x Charger
+* 1x DC power connector
+* 1x DC power pigtail cable
+* 1x User Manual
+
+**NOTES**
+No long-term placement in a low voltage state. In order to extend the battery life, it's suggested charge every three months if long term storage.
